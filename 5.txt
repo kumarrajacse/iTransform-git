@@ -1,0 +1,32 @@
+Create a feature branch to contain the change
+ans:-
+git checkout -b feature
+
+Change the header text in views/index.jade from “Train Schedule” to “Find your train!”
+
+ans:-
+
+vi views/index.jade
+  
+sed 's/Train Schedule/Find your train!/g' views/index.jade 
+Add the change in views/index.jade to the next commit
+ans:-
+git add .
+Commit the change
+and:-
+git commit -m "modified"
+Push the change to the remote scm repository
+ans:-
+git push https://github.com/satyensingh/train-schedule-app.git
+
+Create a pull request to merge the feature branch into the master branch
+
+ans:-
+
+git pull  https://github.com/satyensingh/train-schedule-app.git
+
+Merge the pull request
+
+ans:-
+
+git merge master

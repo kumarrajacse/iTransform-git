@@ -1,0 +1,25 @@
+1.Clone the repository from https://github.com/satyensingh/content-git-quickstart.git to /home/<user-name>/play and create a new branch for your story.
+Ans:
+
+git clone <https://github.com/satyensingh/content-git-quickstart.git>
+cd content-git-quickstart
+git branch <branch-name>-->creating the branch
+git checkout <branch-name>-->switching the new branch created
+
+2.Add a new story file to your local repository in your new branch.
+
+touch <file-name>.txt-->creating the file
+echo "contents">'<filename>.txt'-->adding contents to the file
+
+git status-->to check the status of the file
+git add . -->to add the changes to the features branch
+
+
+3.Add an entry to the file contributers.txt in your new branch.
+
+echo "kumarrajacse@gmail.com">>'contributers.txt'-->adding contents to file
+
+
+4.Commit your changes using the message "airplane story".
+
+git commit -m "ariplane story"  -->addinng commits to the repository

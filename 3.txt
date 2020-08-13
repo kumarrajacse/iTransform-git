@@ -1,0 +1,24 @@
+1.As a result, they have provided you with the credentials for the service user and credentials to access their server. You have been asked to initialize a new Git repository in the /home/<user-name> directory called 'web-api'.
+
+ans:-
+
+mkdir web-api
+cd web-api
+git init -->to create repository
+
+
+2.Once you have this new repository created, create a file called 'README.md' (be careful to mind the case of the file in order to follow your corporate standards for README files) that contains "Web-API v1" text. You will then need to add that file to the repository and commit the changes to the repository. Once you confirm that the default branch is up-to-date with no changes to commit, you may turn it back over to the team for use.
+
+ans:-
+
+touch README.md
+
+echo "Web-API v1" > README.md
+
+git status
+
+git add README.md
+
+git commit -m "addednewfile"
+
+git status
